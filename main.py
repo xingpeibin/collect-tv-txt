@@ -571,8 +571,8 @@ beijing_time = utc_time + timedelta(hours=8)
 # 格式化为所需的格式
 formatted_time = beijing_time.strftime("%Y%m%d %H:%M:%S")
 
-about_video1="http://em.21dtv.com/songs/60158288.mkv"
-about_video2="http://em.21dtv.com/songs/60158288.mkv"
+about_video1="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
+about_video2="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
 version=formatted_time+","+about_video1
 about="关于本源,"+about_video2
 # 瘦身版
