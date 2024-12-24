@@ -282,7 +282,7 @@ def process_channel_line(line):
                 zj_lines.append(process_name_string(line.strip()))
             elif channel_name in jsu_dictionary and check_url_existence(jsu_lines, channel_address):  #地方台-江苏频道
                 jsu_lines.append(process_name_string(line.strip()))
-            elif channel_name in cs_dictionary 和 check_url_existence(cs_lines, channel_address): #地方台-潮汕频道
+            elif channel_name in cs_dictionary and check_url_existence(cs_lines, channel_address): #地方台-潮汕频道
                 cs_lines.append(process_name_string(line.strip()))
             elif channel_name in gd_dictionary and check_url_existence(gd_lines, channel_address):  #地方台-广东频道
                 gd_lines.append(process_name_string(line.strip()))
