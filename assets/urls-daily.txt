@@ -1,3 +1,4 @@
+https://xpb.mhfs.eu.org/HZ.txt
 http://wx.thego.cn/ak.m3u
 http://aktv.top/live.txt
 https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
