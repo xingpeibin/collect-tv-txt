@@ -68,6 +68,7 @@ radio_lines = [] #收音机频道
 
 zj_lines = [] #地方台-浙江频道
 jsu_lines = [] #地方台-江苏频道
+cs_lines = [] #地方台-潮汕频道
 gd_lines = [] #地方台-广东频道
 hn_lines = [] #地方台-湖南频道
 ah_lines = [] #地方台-安徽频道
@@ -281,6 +282,8 @@ def process_channel_line(line):
                 zj_lines.append(process_name_string(line.strip()))
             elif channel_name in jsu_dictionary and check_url_existence(jsu_lines, channel_address):  #地方台-江苏频道
                 jsu_lines.append(process_name_string(line.strip()))
+            elif channel_name in cs_dictionary 和 check_url_existence(cs_lines, channel_address): #地方台-潮汕频道
+                cs_lines.append(process_name_string(line.strip()))
             elif channel_name in gd_dictionary and check_url_existence(gd_lines, channel_address):  #地方台-广东频道
                 gd_lines.append(process_name_string(line.strip()))
             elif channel_name in hn_dictionary and check_url_existence(hn_lines, channel_address):  #地方台-湖南频道
@@ -428,6 +431,7 @@ mtv_dictionary=read_txt_to_array('主频道/MTV.txt') #过滤
 
 zj_dictionary=read_txt_to_array('地方台/浙江频道.txt') #过滤
 jsu_dictionary=read_txt_to_array('地方台/江苏频道.txt') #过滤
+cs_dictionary=read_txt_to_array('地方台/潮汕频道.txt') #过滤
 gd_dictionary=read_txt_to_array('地方台/广东频道.txt') #过滤
 hn_dictionary=read_txt_to_array('地方台/湖南频道.txt') #过滤
 ah_dictionary=read_txt_to_array('地方台/安徽频道.txt') #过滤
@@ -573,8 +577,8 @@ beijing_time = utc_time + timedelta(hours=8)
 # 格式化为所需的格式
 formatted_time = beijing_time.strftime("%Y%m%d %H:%M:%S")
 
-about_video1="https://gitee.com/kabigo/tv/raw/master/assets/about1080p.mp4"
-about_video2="https://gitlab.com/p2v5/wangtv/-/raw/main/about1080p.mp4"
+about_video1="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
+about_video2="https://gitee.com/xingpeibin/zb/raw/master/ds.mp4"
 version=formatted_time+","+about_video1
 about="关于本源(iptv365.org),"+about_video2
 # 瘦身版
@@ -596,6 +600,7 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
              ["💓4K(Test),#genre#"] + read_txt_to_array('专区/4K.txt') + ['\n'] + \
              ["☘️湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
              ["☘️湖北频道,#genre#"] + sort_data(hb_dictionary,set(correct_name_data(corrections_name,hb_lines))) + ['\n'] + \
+             ["☘️潮汕频道,#genre#"] + sort_data(cs_dictionary,set(correct_name_data(corrections_name,cs_lines))) + ['\n'] + \
              ["☘️广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
              ["☘️浙江频道,#genre#"] + sort_data(zj_dictionary,set(correct_name_data(corrections_name,zj_lines))) + ['\n'] + \
              ["☘️山东频道,#genre#"] + sort_data(shandong_dictionary,set(correct_name_data(corrections_name,shandong_lines))) + ['\n'] + \
@@ -606,6 +611,8 @@ all_lines_simple =  ["更新时间,#genre#"] +[version] +[about] +[daily_mtv]+ [
 # ["奥运频道,#genre#"] + sort_data(Olympics_2024_Paris_dictionary,set(correct_name_data(corrections_name,Olympics_2024_Paris_lines))) + ['\n'] + \
 # 
 all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n'] +\
+             ["☘️潮汕频道,#genre#"] + sort_data(cs_dictionary,set(correct_name_data(corrections_name,cs_lines))) + ['\n'] + \
+             ["☘️广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
              ["💓专享源🅰️,#genre#"] + read_txt_to_array('专区/♪专享源①.txt') + ['\n'] + \
              ["💓专享源🅱️,#genre#"] + read_txt_to_array('专区/♪专享源②.txt') + ['\n'] + \
              ["💓专享央视,#genre#"] + read_txt_to_array('专区/♪优质央视.txt') + ['\n'] + \
@@ -638,7 +645,6 @@ all_lines =  ["更新时间,#genre#"] +[version]  +[about] +[daily_mtv] + ['\n']
              ["游戏频道,#genre#"] + sorted(set(game_lines)) + ['\n'] + \
              ["☘️湖南频道,#genre#"] + sort_data(hn_dictionary,set(correct_name_data(corrections_name,hn_lines))) + ['\n'] + \
              ["☘️湖北频道,#genre#"] + sort_data(hb_dictionary,set(correct_name_data(corrections_name,hb_lines))) + ['\n'] + \
-             ["☘️广东频道,#genre#"] + sort_data(gd_dictionary,set(correct_name_data(corrections_name,gd_lines))) + ['\n'] + \
              ["☘️浙江频道,#genre#"] + sort_data(zj_dictionary,set(correct_name_data(corrections_name,zj_lines))) + ['\n'] + \
              ["☘️山东频道,#genre#"] + sort_data(shandong_dictionary,set(correct_name_data(corrections_name,shandong_lines))) + ['\n'] + \
              ["☘️江苏频道,#genre#"] + sorted(set(correct_name_data(corrections_name,jsu_lines))) + ['\n'] + \
