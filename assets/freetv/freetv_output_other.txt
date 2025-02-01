@@ -1,5 +1,5 @@
 更新时间,#genre#
-20250201 07:46:31,url
+20250202 07:46:25,url
 
 
 freetv_other,#genre#
@@ -108,7 +108,6 @@ tvb星河,https://stream1.freetv.fun/tvbxing-he-7.ctv
 东莞新闻综合,https://stream1.freetv.fun/dong-wan-xin-wen-zong-he-1.m3u8
 东莞新闻综合,https://stream1.freetv.fun/dong-wan-xin-wen-zong-he-2.m3u8
 东莞综合,https://stream1.freetv.fun/dong-wan-zong-he-1.m3u8
-中天新聞,https://stream1.freetv.fun/zhong-tian-xin-wen-4.m3u8
 中視,https://stream1.freetv.fun/zhong-shi-7.m3u8
 中視,rtmp://f13h.mine.nu:1935/sat/tv091
 中視新聞,https://stream1.freetv.fun/zhong-shi-xin-wen-4.m3u8
@@ -344,6 +343,7 @@ tvb星河,https://stream1.freetv.fun/tvbxing-he-7.ctv
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-35.ctv
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-38.ctv
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-4.ctv
+广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-5.m3u8
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-6.ctv
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-8.ctv
 广东体育,https://stream1.freetv.fun/yan-dong-ti-yu-gao-qing-2.m3u8
@@ -1047,7 +1047,9 @@ tvb星河,https://stream1.freetv.fun/tvbxing-he-7.ctv
 黑龙江少儿,https://stream1.freetv.fun/hei-long-jiang-shao-er-13.m3u8
 黑龙江少儿,https://stream1.freetv.fun/hei-long-jiang-shao-er-2.m3u8
 黑龙江文体,https://stream1.freetv.fun/hei-long-jiang-wen-ti-7.m3u8
+黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-13.m3u8
 黑龙江新闻法治,https://stream1.freetv.fun/hei-long-jiang-xin-wen-fa-zhi-5.m3u8
 黑龙江视,https://stream1.freetv.fun/hei-long-jiang-shi-6.ctv
 黑龙江都市,https://stream1.freetv.fun/hei-long-jiang-du-shi-8.m3u8
+黑龙江都市,https://stream1.freetv.fun/ipv6-hei-long-jiang-du-shi-5.m3u8
 黔南新闻综合,rtmp://tv.qntv.net/channellive/ch1?zguizd
