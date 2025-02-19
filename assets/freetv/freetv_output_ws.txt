@@ -1,5 +1,5 @@
 更新时间,#genre#
-20250219 07:46:33,url
+20250220 07:46:32,url
 
 
 freetv_ws,#genre#
@@ -172,7 +172,6 @@ freetv_ws,#genre#
 大湾区卫视,https://stream1.freetv.fun/da-wan-qu-wei-shi-26.ctv
 大湾区卫视,https://stream1.freetv.fun/da-wan-qu-wei-shi-5.ctv
 大湾区卫视,https://stream1.freetv.fun/da-wan-qu-wei-shi-6.m3u8
-大湾区卫视,https://stream1.freetv.fun/da-wan-qu-wei-shi-8.ctv
 天津卫视,https://stream1.freetv.fun/tian-jin-wei-shi-16.m3u8
 天津卫视,https://stream1.freetv.fun/tian-jin-wei-shi-20.m3u8
 天津卫视,https://stream1.freetv.fun/tian-jin-wei-shi-21.m3u8
