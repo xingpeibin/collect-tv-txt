@@ -524,7 +524,7 @@ for url in urls:
 # 定义一个函数，提取每行中逗号前面的数字部分作为排序的依据
 def extract_number(s):
     num_str = s.split(',')[0].split('-')[1]  # 提取逗号前面的数字部分
-    numbers = re.findall(r'\d+', num_str)   #因为有+和K
+    numbers = re.findall(r'\d+'， num_str)   #因为有+和K
     return int(numbers[-1]) if numbers else 999
 # 定义一个自定义排序函数
 def custom_sort(s):
@@ -543,10 +543,10 @@ def custom_sort(s):
 print(f"ADD whitelist_auto.txt")
 whitelist_auto_lines=read_txt_to_array('assets/blacklist1/whitelist_auto.txt') #
 for whitelist_line in whitelist_auto_lines:
-    if  "#genre#" not in whitelist_line and "," in whitelist_line and "://" in whitelist_line:
+    if "#genre#" not in whitelist_line 和 "," in whitelist_line 和 "://" in whitelist_line:
         whitelist_parts = whitelist_line.split(",")
         try:
-            response_time = float(whitelist_parts[0].replace("ms", ""))
+            response_time = float(whitelist_parts[0].replace("ms"， ""))
         except ValueError:
             print(f"response_time转换失败: {whitelist_line}")
             response_time = 60000  # 单位毫秒，转换失败给个60秒
@@ -556,7 +556,7 @@ for whitelist_line in whitelist_auto_lines:
 # 随机取得URL
 def get_random_url(file_path):
     urls = []
-    with open(file_path, 'r', encoding='utf-8') as file:
+    with open(file_path, 'r'， encoding='utf-8') as file:
         for line in file:
             # 查找逗号后面的部分，即URL
             url = line.strip().split(',')[-1]
@@ -564,7 +564,7 @@ def get_random_url(file_path):
     # 随机返回一个URL
     return random.choice(urls) if urls else None
 
-daily_mtv="(百)每日一首,"+get_random_url('assets/今日推荐.txt')
+daily_mtv="每日一首,"+get_random_url('assets/今日推荐.txt')
 
 # 获取当前的 UTC 时间
 utc_time = datetime.now(timezone.utc)
