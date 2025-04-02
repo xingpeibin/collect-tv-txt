@@ -573,8 +573,8 @@ beijing_time = utc_time + timedelta(hours=8)
 # 格式化为所需的格式
 formatted_time = beijing_time.strftime("%Y%m%d %H:%M:%S")
 
-about_video1="https://xpb.mhfs.eu.org.mp4"
-about_video2="https://xpb.mhfs.eu.org.mp4"
+about_video1="https://xpb.mhfs.eu.org/ds.mp4"
+about_video2="https://xpb.mhfs.eu.org/ds.mp4"
 version=formatted_time+","+about_video1
 about="关于本源(iptv365.org),"+about_video2
 # 瘦身版
