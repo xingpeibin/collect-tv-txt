@@ -13099,7 +13099,7 @@ Now爆谷,http://aktv.top/AKTV/live/aktv2/now-1/AKTV.m3u8
 粤🔊粤哥旁述,https://pullhw.zhaoyangyang.cn/live/8790328.flv?auth_info=HRFOVzH9nVL2XyL7pAzs%2F0fcn00CD3PsggN%2FCzvB8SQ%3D.74595339476a4e57473958314a4f3935
 粤🔊阿细旁述,https://pullhw.zhaoyangyang.cn/live/8790336.flv?auth_info=mwInzjoYtL8pU7N7e2i6BzxyTOdoKFCXWYBqjUTPdrE%3D.4253454c62587970584548764e345751
 国🔊阿勒评述,https://pullhw.zhaoyangyang.cn/live/8790340.flv?auth_info=md%2F4dlH0TSUlrnaY4iwQ59PQrf2GFko39uzGd5CBXzA%3D.4676474b43397154684b35323742396c
-国🔊腾讯评述,https://play1nm.hnyongshun.cn/live/ed8e0731905adf3820b532ef39b34780_ballbar_25720.m3u8?txSecret=4f8422cef6c6df21b6998211bca36bf1&txTime=681e9658
+国🔊腾讯评述,https://live1.jiatianxiazhuangshi.com/live/59796510_02493643003031c04587fca430cac022_nsd.m3u8
 国🔊评述,https://pullkgq.15qctz.com/sport/201_3646453_1.m3u8?auth_key=1746833933-0-0-209f18b2c6957319f7f44c879ecfcec2
 国🔊纬来评述,https://hdl2.szsummer.cn/live/35141579.flv?auth_key=1746720000-a782a1f91e3744e7a5cf75b53e9f911e-0-44d089dca10d35ffbe5047d30e539e8b
 赛事睛彩竞技,http://111.22.153.159:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
