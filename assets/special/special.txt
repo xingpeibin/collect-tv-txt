@@ -3905,7 +3905,8 @@ mft.hk,https://wbug.xyz/videos/e79553fab041f03efee560b53f8d7dc84c76bb2b/g.m3u8?h
 維護内容：維護 Gather「調整限制 / 維護資源」,https://epg.iill.top/v/302.mp4
 公告说明：推流源·「隨時拉閘 / 晚安"0-6"」,https://epg.iill.top/v/301.mp4
 建議使用：請保持 个人觀看 請勿頻繁切換,https://epg-1.iill.top/v/301.mp4
-HBO「回看/12H」,https://hls.iill.top/test/HBO/index.m3u8
+HBO「回看/6H」,https://hls.iill.top/test/HBO/index.m3u8
+緯來體育「回看/24H」,https://v.iill.top/test/VL-Sports/index.m3u8
 CCTV 1 綜合「Relay」,https://v.iill.top/api/CCTV1/index.m3u8
 CCTV 2 財經「Relay」,https://v.iill.top/api/CCTV2/index.m3u8
 CCTV 3 綜藝「Relay」,https://v.iill.top/api/CCTV3/index.m3u8
@@ -3964,7 +3965,7 @@ RTHK 35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/s
 澳門體育,https://live5.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
 澳門綜藝,https://live5.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
 博斯運動 一「CatchPlay」,https://hls.iill.top/api/Sports-Network/index.m3u8
-博斯運動 二「FainTV」,https://v.iill.top/api/Football-Channel/index.m3u8
+博斯運動 二「FainTV」,https://v.iill.top/tw/Football-Channel/index.m3u8
 博斯無限 一「FainTV」,https://v.iill.top/tw/Unlimited-Channel/index.m3u8
 博斯無限 二「FainTV」,https://v.iill.top/tw/Unlimited-Channel-2/index.m3u8
 博斯高球 一「FainTV」,https://v.iill.top/tw/Golf-Channel/index.m3u8
